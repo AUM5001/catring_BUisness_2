@@ -1,0 +1,44 @@
+/* src/components/MaterialList.css */
+.material-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 200px;
+    background-color: #f8f9fa;
+  }
+  
+  .material-card {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .material-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .material-info h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .material-info p {
+    margin: 3px 0;
+    font-size: 14px;
+  }
+  
+  .need-to-buy {
+    color: red;
+    font-weight: bold;
+  }
+  

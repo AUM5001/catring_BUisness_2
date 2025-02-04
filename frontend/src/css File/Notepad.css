@@ -1,0 +1,27 @@
+/* src/App.css */
+.notepad {
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 150px;
+  }
+  
+  textarea {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }

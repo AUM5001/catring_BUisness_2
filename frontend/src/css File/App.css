@@ -1,0 +1,10 @@
+.App {
+    display: flex;
+  }
+  
+  .content {
+    margin-left: 130px; /* Ensure content starts after the sidebar */
+    margin-top: 150px; /* Make room for the fixed header */
+    /*padding:200px;
+    width: 100%;*/
+  }
